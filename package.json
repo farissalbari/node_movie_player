@@ -1,7 +1,6 @@
 {
   "name": "movies01",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +13,14 @@
     "mediaelement": "^4.2.16",
     "mediaplayer": "^2.0.1",
     "mongoose": "^5.11.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farissalbari/node_movie_player.git"
+  },
+  "bugs": {
+    "url": "https://github.com/farissalbari/node_movie_player/issues"
+  },
+  "homepage": "https://github.com/farissalbari/node_movie_player#readme",
+  "description": ""
 }
