@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= movie.title %></title>
+</head>
+<body>
+    <%- include('./partials/nav.ejs') %>
+
+    <h1><%= movie.title %></h1>
+    <h2><%= movie.path %></h2>
+    
+    <video id="videoPlayer" width="650" controls>
+        <source src="<%= movie.path %>" type="video/mp4">
+    </video>
+
+    <!-- <video id="videoPlayer" width="650" controls>
+        <source src="player" type="video/mp4">
+    </video> -->
+</body>
+</html>
